@@ -1,0 +1,12 @@
+{
+  "name": "jonas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed",
+    "start": "node-sass sass/main.scss  css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
